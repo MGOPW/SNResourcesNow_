@@ -1,7 +1,5 @@
 {
-  "index": "Introduction",
-  "get-started": "Get Started",
-  "features": "Features",
-  "themes": "Themes",
-  "advanced": "Advanced"
+  "about": "About",
+  "main": "Main",
+  "contributing": "How to contribute"
 }
