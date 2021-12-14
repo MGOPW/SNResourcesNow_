@@ -1,12 +1,12 @@
 export default {
-  github: 'https://github.com/shuding/nextra',
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
-  titleSuffix: ' – Nextra',
+  github: 'https://github.com/MGOPW/SNResourcesNow',
+  docsRepositoryBase: 'https://github.com/MGOPW/SNResourcesNow',
+  titleSuffix: ' – ResourcesNow',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
+      <span className="mr-2 font-extrabold hidden md:inline">ResourcesNow</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-        The Next.js Static Site Generator
+        Because I can't organize my bookmarks
       </span>
     </>
   ),
@@ -16,15 +16,15 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="Nextra: the Next.js site builder" />
-      <meta name="og:description" content="Nextra: the Next.js site builder" />
+      <meta name="description" content="ResourcesNow: for when google fails you" />
+      <meta name="og:description" content="ResourcesNow: for when google fails you" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
+      <meta name="twitter:image" content="" /> // gotta fill in
       <meta name="twitter:site:domain" content="nextra.vercel.app" />
-      <meta name="twitter:url" content="https://nextra.vercel.app" />
-      <meta name="og:title" content="Nextra: Next.js static site generator" />
-      <meta name="og:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="apple-mobile-web-app-title" content="Nextra" />
+      <meta name="twitter:url" content="http://resourcesnow.snadmin.net" />
+      <meta name="og:title" content="ResourcesNow: for when google fails you" />
+      <meta name="og:image" content="" /> // gotta fill in
+      <meta name="apple-mobile-web-app-title" content="ResourcesNow" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -58,10 +58,10 @@ export default {
     </>
   ),
   search: true,
-  prevLinks: true,
-  nextLinks: true,
-  footer: true,
+  prevLinks: false,
+  nextLinks: false,
+  footer: false,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
+  footerText: <>MIT {new Date().getFullYear()} © ResourcesNow.</>,
   unstable_faviconGlyph: '👋',
 }
